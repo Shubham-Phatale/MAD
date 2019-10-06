@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@drawable/loginbg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/splash"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sakec Placement portal"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/splash"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|end"
+        android:text="Mahavir Education Trust was established in the year
+        1983 with the main purpose of promoting technical
+        education with generous donations of two main donors viz.,Shrimati Laxmiben Karamshibhai Shah Trust and Shah Lalji Velji Anchorwala"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        android:textColor="@color/splash"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STUDENT LOGIN"
+        android:textColor="@color/login"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="Username:Registration no."
+        android:background="@drawable/etstyle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/Registration"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:hint="Password:Enter Password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/password"
+        android:background="@drawable/etstyle"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="Sign in"
+        android:textSize="20dp"
+        android:textColor="@color/splash"
+        android:background="@drawable/btnstyle"
+        android:textAllCaps="false"
+        android:id="@+id/signin"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remember Me"
+            android:textColor="@color/login"
+            android:layout_weight="1"
+            android:id="@+id/check"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I Forgot My Password"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="@color/login"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        >
+        <View
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:background="@color/View"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textColor="@color/View"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            />
+        <View
+            android:layout_width="150dp"
+            android:layout_height="1dp"
+            android:background="@color/View"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="ADMIN LOGIN"
+        android:textSize="20sp"
+        android:textColor="@color/login"
+        android:gravity="center_horizontal"
+        android:id="@+id/admin"
+        />
+
+</LinearLayout>
